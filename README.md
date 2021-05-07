@@ -23,3 +23,12 @@ It returns the last inserted element in the stack without removing it.
 5. isEmpty<br>
 Prototype  -> int isEmpty(Stack *s);<br>
 It returns 1 if stack is empty or 0 otherwise.
+### Part 2:
+a C function that takes a postfix expression as
+input and shows the value of the expression as output.
+The input will be a postfix (not infix) and the stack
+implementation is used to evaluate the expression.<br>
+Function prototype -> int evaluatePostfix(char postfix[]);<br>
+For Example:<br>
+Input (Postfix): 124*+3+ <br>
+Output: 12<br>
