@@ -43,3 +43,7 @@ Example 1:<br>
 Input (Infix): 1+2\*4+3 <br>
 Output (Postfix): 124\*\+3+<br>
 Value 12<br>
+Example 2:<br>
+Input (Infix): (1+2)\*4+3<br>
+Output (Postfix): 12+4\*3+<br>
+Value 15
