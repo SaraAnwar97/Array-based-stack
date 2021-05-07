@@ -30,5 +30,16 @@ The input will be a postfix (not infix) and the stack
 implementation is used to evaluate the expression.<br>
 Function prototype -> int evaluatePostfix(char postfix[]);<br>
 For Example:<br>
-Input (Postfix): 124*+3+ <br>
+Input (Postfix): 124\*\+3+ <br>
 Output: 12<br>
+### Part 3:
+a C function that takes a infix expression as
+input and convert it to postfix then evaluate the value of the expression
+using the function made in part 2.<br>
+Function prototype -> void infixTopostfix(char infix[], char postfix[]);<br>
+Note that infix input is the infix expression and postfix is an empty array and will be filled with postfix expression.
+Then string is taken as input from user, Converted it using function made in part 3 and then postfix function made in part 2 is called.<br>
+Example 1:<br>
+Input (Infix): 1+2\*4+3 <br>
+Output (Postfix): 124\*\+3+<br>
+Value 12<br>
